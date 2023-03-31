@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.button {
+    background-color: rgb(131, 238, 202);
+    box-shadow: 0 0 5px black;
+    width: 80px;
+    height: 2em;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: rgb(7, 85, 255);
+    color: white;
+    cursor: pointer;
+}
