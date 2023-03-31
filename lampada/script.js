@@ -24,12 +24,12 @@ function lampBroken() {
 }
 
 function lampOnOff () {
-    if (turnOnOff.textContent === 'Ligar') {
+    if (turnOnOff.textContent === 'Ligar') { //esse é o teste logico ou seja SE O CONTEUDO DO BOTAO É identico a LIGAR VC VAI EXECUTAR A FUNCTION lampOn() ali de cima
         lampOn()
-        turnOnOff.textContent = 'Desligar'
-    } else {
+        turnOnOff.textContent = 'Desligar' // e aqui o botao vai receber o conteudo 'Desligar'
+    } else {  // se não agora quando a lampada estiver ligada vai receber a função lampOff()
         lampOff()
-        turnOnOff.textContent = 'Ligar'
+        turnOnOff.textContent = 'Ligar' // e quando estiver desligada vai receber o conteudo 'Ligar'
     }
 }
 
